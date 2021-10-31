@@ -8,3 +8,50 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.kontejner
+	{
+		width: 100%;
+		background-color: rgb(238, 237, 237);
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		justify-content: center;
+	}
+
+.Hanka-polozka,
+.Jana-polozka,
+.Markéta-polozka,
+.Monika-polozka
+	{
+		flex-basis: 22%;
+		background-color: white;
+		text-align: center;
+		padding: 2rem;
+		margin: 2rem;
+		border-radius: 5%;
+	}
+
+.Hanka,
+.Jana,
+.Markéta,
+.Monika
+	{
+		border-radius: 50%;
+		width: 150px;
+	}
+
+.nadpis
+	{
+		text-align: left;
+	}
+
+.ikona-Linkedin,
+.ikona-Twitter,
+.ikona-Github
+	{
+		width: 35px;
+		height: 35px;
+		
+	}
+
